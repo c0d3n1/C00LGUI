@@ -111,24 +111,22 @@ local Close_4 = Instance.new("TextButton")
 local Page3_2 = Instance.new("Frame")
 local Forsaken1_2 = Instance.new("Folder")
 local Line = Instance.new("TextButton")
+local _4 = Instance.new("TextButton")
+local _3 = Instance.new("TextButton")
 local Title_5 = Instance.new("TextLabel")
-local Tab_5 = Instance.new("Frame")
 local Forsaken2_2 = Instance.new("Folder")
 local Line_2 = Instance.new("TextButton")
+local _2 = Instance.new("TextButton")
+local _1 = Instance.new("TextButton")
+local _3_2 = Instance.new("TextButton")
 local SettingsTab = Instance.new("Frame")
 local Random3 = Instance.new("Frame")
 local Random1_9 = Instance.new("Frame")
 local Random2_5 = Instance.new("Frame")
 local Page1_5 = Instance.new("TextLabel")
+local Visuals = Instance.new("TextLabel")
 local Close_5 = Instance.new("TextButton")
-local Toggles = Instance.new("TextLabel")
-local Container = Instance.new("Frame")
-local Template1 = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local Template2 = Instance.new("Frame")
-local TextLabel_2 = Instance.new("TextLabel")
-local Template3 = Instance.new("Frame")
-local TextLabel_3 = Instance.new("TextLabel")
+local Tab_5 = Instance.new("Frame")
 
 --Properties:
 
@@ -922,7 +920,7 @@ Page2.Parent = c00lgui
 Page2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Page2.BorderSizePixel = 0
-Page2.Position = UDim2.new(0, 0, 0.275999993, 0)
+Page2.Position = UDim2.new(0, 1000, 0.275999993, 0)
 Page2.Size = UDim2.new(0, 314, 0, 407)
 Page2.ZIndex = 2000
 
@@ -1159,7 +1157,7 @@ Script14_2.BorderSizePixel = 2
 Script14_2.Position = UDim2.new(0.252000004, 2, 0.298999995, -5)
 Script14_2.Size = UDim2.new(0, 80, 0, 29)
 Script14_2.Font = Enum.Font.SourceSans
-Script14_2.Text = "Walkspeed Hax"
+Script14_2.Text = "Walkspeed Hax Off"
 Script14_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script14_2.TextScaled = true
 Script14_2.TextSize = 14.000
@@ -1173,7 +1171,7 @@ Script15_2.BorderSizePixel = 2
 Script15_2.Position = UDim2.new(-0.00900001265, 3, 0.370000005, -1)
 Script15_2.Size = UDim2.new(0, 78, 0, 29)
 Script15_2.Font = Enum.Font.SourceSans
-Script15_2.Text = "Jumppower hax"
+Script15_2.Text = "Jumppower hax Off"
 Script15_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script15_2.TextScaled = true
 Script15_2.TextSize = 16.000
@@ -1187,7 +1185,7 @@ Script13_2.BorderSizePixel = 2
 Script13_2.Position = UDim2.new(-0.00900001265, 3, 0.298999995, -5)
 Script13_2.Size = UDim2.new(0, 78, 0, 29)
 Script13_2.Font = Enum.Font.SourceSans
-Script13_2.Text = "T to teleport"
+Script13_2.Text = "Teleport Off"
 Script13_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Script13_2.TextScaled = true
 Script13_2.TextSize = 16.000
@@ -1379,7 +1377,7 @@ Page3_2.Parent = c00lgui
 Page3_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Page3_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Page3_2.BorderSizePixel = 0
-Page3_2.Position = UDim2.new(0, 0, 0.275999993, 0)
+Page3_2.Position = UDim2.new(0, 500, 0.275999993, 0)
 Page3_2.Size = UDim2.new(0, 314, 0, 407)
 Page3_2.ZIndex = 2000
 
@@ -1399,6 +1397,34 @@ Line.TextColor3 = Color3.fromRGB(255, 255, 255)
 Line.TextSize = 16.000
 Line.TextWrapped = true
 
+_4.Name = "4"
+_4.Parent = Forsaken1_2
+_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_4.BorderSizePixel = 2
+_4.Position = UDim2.new(0.513292968, 3, 0.53700006, -3)
+_4.Size = UDim2.new(0, 78, 0, 29)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "Generator Highlighter"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextScaled = true
+_4.TextSize = 18.000
+_4.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = Forsaken1_2
+_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_3.BorderSizePixel = 2
+_3.Position = UDim2.new(0.513292968, 3, 0.465999961, -7)
+_3.Size = UDim2.new(0, 78, 0, 29)
+_3.Font = Enum.Font.SourceSans
+_3.Text = "Killers Highlighter"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextScaled = true
+_3.TextSize = 16.000
+_3.TextWrapped = true
+
 Title_5.Name = "Title"
 Title_5.Parent = Page3_2
 Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1413,14 +1439,6 @@ Title_5.Text = "c00lgui V1.1  by PureSigma"
 Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_5.TextSize = 26.000
 Title_5.TextWrapped = true
-
-Tab_5.Name = "Tab"
-Tab_5.Parent = Page3_2
-Tab_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Tab_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Tab_5.BorderSizePixel = 2
-Tab_5.Position = UDim2.new(0, 0, 0.0930000022, 1)
-Tab_5.Size = UDim2.new(0, 323, 0, -38)
 
 Forsaken2_2.Name = "Forsaken2"
 Forsaken2_2.Parent = Page3_2
@@ -1438,6 +1456,48 @@ Line_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Line_2.TextScaled = true
 Line_2.TextSize = 16.000
 Line_2.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = Forsaken2_2
+_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_2.BorderSizePixel = 2
+_2.Position = UDim2.new(0.252000004, 2, 0.537, -3)
+_2.Size = UDim2.new(0, 80, 0, 29)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "Tool Highlighter"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextScaled = true
+_2.TextSize = 16.000
+_2.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = Forsaken2_2
+_1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_1.BorderSizePixel = 2
+_1.Position = UDim2.new(0.252000004, 2, 0.465999991, -7)
+_1.Size = UDim2.new(0, 80, 0, 29)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "Survivors Highlighter"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextScaled = true
+_1.TextSize = 16.000
+_1.TextWrapped = true
+
+_3_2.Name = "3"
+_3_2.Parent = Forsaken2_2
+_3_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_3_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+_3_2.BorderSizePixel = 2
+_3_2.Position = UDim2.new(0.379388511, 2, 0.618081152, -3)
+_3_2.Size = UDim2.new(0, 80, 0, 29)
+_3_2.Font = Enum.Font.SourceSans
+_3_2.Text = "Hide PlayerBar"
+_3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3_2.TextScaled = true
+_3_2.TextSize = 16.000
+_3_2.TextWrapped = true
 
 SettingsTab.Name = "SettingsTab"
 SettingsTab.Parent = Page3_2
@@ -1487,6 +1547,22 @@ Page1_5.TextScaled = true
 Page1_5.TextSize = 26.000
 Page1_5.TextWrapped = true
 
+Visuals.Name = "Visuals"
+Visuals.Parent = Page3_2
+Visuals.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Visuals.BackgroundTransparency = 1.000
+Visuals.BorderColor3 = Color3.fromRGB(160, 82, 45)
+Visuals.BorderSizePixel = 2
+Visuals.Position = UDim2.new(0.286008209, -2, 0.233660877, -5)
+Visuals.Size = UDim2.new(0, 145, 0, 19)
+Visuals.ZIndex = 2
+Visuals.Font = Enum.Font.SourceSans
+Visuals.Text = "Visuals"
+Visuals.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visuals.TextScaled = true
+Visuals.TextSize = 26.000
+Visuals.TextWrapped = true
+
 Close_5.Name = "Close"
 Close_5.Parent = Page3_2
 Close_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1500,99 +1576,17 @@ Close_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_5.TextSize = 18.000
 Close_5.TextWrapped = true
 
-Toggles.Name = "Toggles"
-Toggles.Parent = Page3_2
-Toggles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Toggles.BackgroundTransparency = 1.000
-Toggles.BorderColor3 = Color3.fromRGB(160, 82, 45)
-Toggles.BorderSizePixel = 2
-Toggles.Position = UDim2.new(0.286008209, -2, 0.233660877, -5)
-Toggles.Size = UDim2.new(0, 145, 0, 19)
-Toggles.ZIndex = 2
-Toggles.Font = Enum.Font.SourceSans
-Toggles.Text = "Toggles"
-Toggles.TextColor3 = Color3.fromRGB(255, 255, 255)
-Toggles.TextScaled = true
-Toggles.TextSize = 26.000
-Toggles.TextWrapped = true
-
-Container.Name = "Container"
-Container.Parent = Page3_2
-Container.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Container.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Container.BorderSizePixel = 0
-Container.Position = UDim2.new(0.0668789819, 0, 0.286714971, 0)
-Container.Size = UDim2.new(0, 281, 0, 195)
-
-Template1.Name = "Template1"
-Template1.Parent = Container
-Template1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Template1.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Template1.BorderSizePixel = 2
-Template1.Position = UDim2.new(0, 0, 0.0306102261, 0)
-Template1.Size = UDim2.new(0, 281, 0, 49)
-
-TextLabel.Parent = Template1
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.298576593, 0, 0.217530549, 0)
-TextLabel.Size = UDim2.new(0, 104, 0, 26)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "WIP"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-Template2.Name = "Template2"
-Template2.Parent = Container
-Template2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Template2.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Template2.BorderSizePixel = 2
-Template2.Position = UDim2.new(0, 0, 0.28189227, 0)
-Template2.Size = UDim2.new(0, 281, 0, 49)
-
-TextLabel_2.Parent = Template2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.298576593, 0, 0.217530549, 0)
-TextLabel_2.Size = UDim2.new(0, 104, 0, 26)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "WIP"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-Template3.Name = "Template3"
-Template3.Parent = Container
-Template3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Template3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Template3.BorderSizePixel = 2
-Template3.Position = UDim2.new(0, 0, 0.533174336, 0)
-Template3.Size = UDim2.new(0, 281, 0, 49)
-
-TextLabel_3.Parent = Template3
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.298576593, 0, 0.217530549, 0)
-TextLabel_3.Size = UDim2.new(0, 104, 0, 26)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "WIP"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+Tab_5.Name = "Tab"
+Tab_5.Parent = Page3_2
+Tab_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Tab_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Tab_5.BorderSizePixel = 2
+Tab_5.Position = UDim2.new(0, 0, 0.0930000022, 1)
+Tab_5.Size = UDim2.new(0, 323, 0, -38)
 
 -- Scripts:
 
-local function MEIRDXI_fake_script() -- Script1.LocalScript 
+local function WSOU_fake_script() -- Script1.LocalScript 
 	local script = Instance.new('LocalScript', Script1)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1608,8 +1602,8 @@ local function MEIRDXI_fake_script() -- Script1.LocalScript
 		loadstring('print("Hello from loadstring!")')()
 	end)
 end
-coroutine.wrap(MEIRDXI_fake_script)()
-local function ISQB_fake_script() -- Script13.LocalScript 
+coroutine.wrap(WSOU_fake_script)()
+local function LKNCO_fake_script() -- Script13.LocalScript 
 	local script = Instance.new('LocalScript', Script13)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1625,8 +1619,8 @@ local function ISQB_fake_script() -- Script13.LocalScript
 		loadstring('print("Hello from loadstring!")')()
 	end)
 end
-coroutine.wrap(ISQB_fake_script)()
-local function GBVUBVR_fake_script() -- Clear.LocalScript 
+coroutine.wrap(LKNCO_fake_script)()
+local function OQQEHZN_fake_script() -- Clear.LocalScript 
 	local script = Instance.new('LocalScript', Clear)
 
 	local button = script.Parent
@@ -1635,8 +1629,8 @@ local function GBVUBVR_fake_script() -- Clear.LocalScript
 		textbox.Text = ""
 	end)
 end
-coroutine.wrap(GBVUBVR_fake_script)()
-local function OQGYUK_fake_script() -- Execute.LocalScript 
+coroutine.wrap(OQQEHZN_fake_script)()
+local function QCXVQX_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	local button = script.Parent
@@ -1645,8 +1639,8 @@ local function OQGYUK_fake_script() -- Execute.LocalScript
 		loadstring(textbox.Text)()
 	end)
 end
-coroutine.wrap(OQGYUK_fake_script)()
-local function EVLBFYK_fake_script() -- Page4.LocalScript 
+coroutine.wrap(QCXVQX_fake_script)()
+local function DYZOPZ_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local scrollingFrame = script.Parent.ScrollingFrame
@@ -1663,8 +1657,8 @@ local function EVLBFYK_fake_script() -- Page4.LocalScript
 	-- Add your text (exactly as requested)
 	textBox.Text = "print(team d33rdud3 join today!)"
 end
-coroutine.wrap(EVLBFYK_fake_script)()
-local function TCOGT_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(DYZOPZ_fake_script)()
+local function OBSTCU_fake_script() -- c00lgui.LocalScript 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local gui = script.Parent
@@ -1710,8 +1704,8 @@ local function TCOGT_fake_script() -- c00lgui.LocalScript
 	-- Initialize (show first page)
 	updatePages()
 end
-coroutine.wrap(TCOGT_fake_script)()
-local function DJWTR_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(OBSTCU_fake_script)()
+local function RHEZYEV_fake_script() -- c00lgui.LocalScript 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1821,8 +1815,8 @@ local function DJWTR_fake_script() -- c00lgui.LocalScript
 	showPage(1)
 	setElementsVisible(true)
 end
-coroutine.wrap(DJWTR_fake_script)()
-local function NTIBMFE_fake_script() -- Script1_2.LocalScript 
+coroutine.wrap(RHEZYEV_fake_script)()
+local function NIJT_fake_script() -- Script1_2.LocalScript 
 	local script = Instance.new('LocalScript', Script1_2)
 
 	local debounce = false
@@ -1854,8 +1848,8 @@ local function NTIBMFE_fake_script() -- Script1_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NTIBMFE_fake_script)()
-local function YJIZ_fake_script() -- Script2_2.LocalScript 
+coroutine.wrap(NIJT_fake_script)()
+local function OISQEC_fake_script() -- Script2_2.LocalScript 
 	local script = Instance.new('LocalScript', Script2_2)
 
 	local button = script.Parent
@@ -1890,8 +1884,8 @@ local function YJIZ_fake_script() -- Script2_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YJIZ_fake_script)()
-local function ITZSN_fake_script() -- Script3_2.LocalScript 
+coroutine.wrap(OISQEC_fake_script)()
+local function HMID_fake_script() -- Script3_2.LocalScript 
 	local script = Instance.new('LocalScript', Script3_2)
 
 	local button = script.Parent
@@ -1946,14 +1940,713 @@ local function ITZSN_fake_script() -- Script3_2.LocalScript
 	-- Initialize
 	button.Text = "Auto Generator Off"
 end
-coroutine.wrap(ITZSN_fake_script)()
-local function MLTD_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(HMID_fake_script)()
+local function OYTZRQ_fake_script() -- Script14_2.LocalScript 
+	local script = Instance.new('LocalScript', Script14_2)
+
+	local button = script.Parent
+	local isSpeedBoostOn = false
+	local player = game.Players.LocalPlayer
+	
+	local TweenService = game:GetService("TweenService")
+	
+	local speedTween
+	local sprintingConnection
+	local SPEED_VALUE = 3
+	
+	local function getSprintingValue()
+		local character = player.Character
+		if not character then return end
+	
+		local speedFolder = character:FindFirstChild("SpeedMultipliers")
+		if not speedFolder then return end
+	
+		return speedFolder:FindFirstChild("Sprinting")
+	end
+	
+	local function applySpeedHack()
+		local sprintingValue = getSprintingValue()
+		if not sprintingValue then return end
+	
+		if speedTween then speedTween:Cancel() end
+	
+		speedTween = TweenService:Create(sprintingValue, TweenInfo.new(0.15), { Value = SPEED_VALUE })
+		speedTween:Play()
+	
+		-- Constantly enforce the speed
+		if sprintingConnection then
+			sprintingConnection:Disconnect()
+		end
+	
+		sprintingConnection = sprintingValue.Changed:Connect(function()
+			if sprintingValue.Value ~= SPEED_VALUE then
+				sprintingValue.Value = SPEED_VALUE
+			end
+		end)
+	end
+	
+	local function revertSpeedHack()
+		local sprintingValue = getSprintingValue()
+		if not sprintingValue then return end
+	
+		if speedTween then speedTween:Cancel() end
+	
+		speedTween = TweenService:Create(sprintingValue, TweenInfo.new(0.15), { Value = 1 })
+		speedTween:Play()
+	
+		if sprintingConnection then
+			sprintingConnection:Disconnect()
+			sprintingConnection = nil
+		end
+	end
+	
+	-- Reapply after respawn
+	player.CharacterAdded:Connect(function()
+		if isSpeedBoostOn then
+			repeat task.wait() until getSprintingValue()
+			applySpeedHack()
+		end
+	end)
+	
+	button.Activated:Connect(function()
+		isSpeedBoostOn = not isSpeedBoostOn
+		button.Text = isSpeedBoostOn and "Walkspeed Hax On" or "Walkspeed Hax Off"
+	
+		if isSpeedBoostOn then
+			applySpeedHack()
+		else
+			revertSpeedHack()
+		end
+	end)
+	
+	button.Text = "Walkspeed Hax Off"
+	
+end
+coroutine.wrap(OYTZRQ_fake_script)()
+local function CHJC_fake_script() -- Script13_2.LocalScript 
+	local script = Instance.new('LocalScript', Script13_2)
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local player = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	local button = script.Parent
+	
+	-- Configuration
+	local teleportDistance = 10
+	local teleportKey = Enum.KeyCode.T
+	local teleportEnabled = false
+	
+	-- Initialize button
+	button.Text = "Teleport Off"
+	
+	local function teleportForward()
+		if not teleportEnabled then return end
+	
+		local character = player.Character
+		if not character then
+			character = player.CharacterAdded:Wait()
+		end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+	
+		if rootPart and camera and humanoid and humanoid:GetState() ~= Enum.HumanoidStateType.Dead then
+			-- Get camera direction (fixed Vector3 access)
+			local cameraCFrame = camera.CFrame
+			local lookVector = Vector3.new(cameraCFrame.LookVector.X, 0, cameraCFrame.LookVector.Z).Unit
+	
+			-- Calculate new position
+			local newPosition = rootPart.Position + (lookVector * teleportDistance)
+			rootPart.CFrame = CFrame.new(newPosition, newPosition + lookVector)
+		end
+	end
+	
+	-- Keybind connection
+	local keybindConnection
+	local function setupKeybind()
+		if keybindConnection then
+			keybindConnection:Disconnect()
+		end
+	
+		keybindConnection = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if not gameProcessed and input.KeyCode == teleportKey then
+				teleportForward()
+			end
+		end)
+	end
+	
+	-- Toggle function
+	button.Activated:Connect(function()
+		teleportEnabled = not teleportEnabled
+	
+		if teleportEnabled then
+			button.Text = "Teleport On (Press T)"
+			setupKeybind()
+		else
+			button.Text = "Teleport Off"
+			if keybindConnection then
+				keybindConnection:Disconnect()
+			end
+		end
+	end)
+	
+	-- Cleanup
+	player.CharacterRemoving:Connect(function()
+		if keybindConnection then
+			keybindConnection:Disconnect()
+		end
+	end)
+end
+coroutine.wrap(CHJC_fake_script)()
+local function ZILY_fake_script() -- _4.LocalScript 
+	local script = Instance.new('LocalScript', _4)
+
+	local player = game:GetService("Players").LocalPlayer
+	local button = script.Parent
+	local isHighlightActive = false
+	button.AutoButtonColor = false
+	button.Text = "Waiting for Map..."
+	
+	-- Function to highlight generators
+	local function toggleHighlightGen(state)
+		isHighlightActive = state
+	
+		local function applyGeneratorHighlight(generator)
+			if generator.Name == "Generator" then
+				local existingHighlight = generator:FindFirstChild("GeneratorHighlight")
+				local progress = generator:FindFirstChild("Progress")
+	
+				if not isHighlightActive or (progress and progress.Value == 100) then
+					if existingHighlight then
+						existingHighlight:Destroy()
+					end
+					return
+				end
+	
+				if isHighlightActive and not existingHighlight then
+					local genhighlight = Instance.new("Highlight")
+					genhighlight.Name = "GeneratorHighlight"
+					genhighlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+					genhighlight.FillColor = Color3.fromRGB(255, 255, 0)
+					genhighlight.OutlineColor = Color3.fromRGB(255, 165, 0)
+					genhighlight.Parent = generator
+				end
+	
+				if progress then
+					progress:GetPropertyChangedSignal("Value"):Connect(function()
+						if progress.Value == 100 then
+							local highlight = generator:FindFirstChild("GeneratorHighlight")
+							if highlight then
+								highlight:Destroy()
+							end
+						elseif isHighlightActive and not generator:FindFirstChild("GeneratorHighlight") then
+							local genhighlight = Instance.new("Highlight")
+							genhighlight.Name = "GeneratorHighlight"
+							genhighlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+							genhighlight.FillColor = Color3.fromRGB(255, 255, 0)
+							genhighlight.OutlineColor = Color3.fromRGB(255, 165, 0)
+							genhighlight.Parent = generator
+						end
+					end)
+				end
+			end
+		end
+	
+		-- Safe reference to Map folder
+		local mapFolder = game.Workspace:FindFirstChild("Map") and game.Workspace.Map:FindFirstChild("Ingame") and game.Workspace.Map.Ingame:FindFirstChild("Map")
+		if not mapFolder then return end
+	
+		for _, generator in pairs(mapFolder:GetChildren()) do
+			applyGeneratorHighlight(generator)
+		end
+	
+		mapFolder.ChildAdded:Connect(function(child)
+			applyGeneratorHighlight(child)
+		end)
+	end
+	
+	-- Monitor for when Map appears
+	task.spawn(function()
+		while true do
+			local map = game.Workspace:FindFirstChild("Map")
+			local ingame = map and map:FindFirstChild("Ingame")
+			local innerMap = ingame and ingame:FindFirstChild("Map")
+	
+			if innerMap then
+				-- Enable button
+				button.AutoButtonColor = true
+				button.Text = "Generator Highlighter Off"
+	
+				-- Set up button toggle
+				button.Activated:Connect(function()
+					isHighlightActive = not isHighlightActive
+					toggleHighlightGen(isHighlightActive)
+					button.Text = isHighlightActive and "Generator Highlighter On" or "Generator Highlighter Off"
+				end)
+	
+				-- Optional: auto-disable highlight when round ends
+				innerMap.AncestryChanged:Connect(function(_, parent)
+					if not parent then
+						isHighlightActive = false
+						button.Text = "Waiting for Map"
+						button.AutoButtonColor = false
+					end
+				end)
+	
+				break
+			end
+			task.wait(0.5)
+		end
+	end)
+	
+end
+coroutine.wrap(ZILY_fake_script)()
+local function GAGDU_fake_script() -- _3.LocalScript 
+	local script = Instance.new('LocalScript', _3)
+
+	local player = game:GetService("Players").LocalPlayer
+	local button = script.Parent -- Make sure this is your toggle button
+	local isKillerHighlightActive = false
+	
+	local function killerHighlighter(state)
+		isKillerHighlightActive = state
+	
+		local function applyKillerHighlight(model)
+			if model:IsA("Model") and model:FindFirstChild("Head") then
+				-- Clean up existing elements first
+				local existingBillboard = model.Head:FindFirstChild("billboard")
+				local existingHighlight = model:FindFirstChild("HiThere")
+				local existingBox = model:FindFirstChild("ESPBox")
+				local existingHealthBar = model.PrimaryPart and model.PrimaryPart:FindFirstChild("HealthBar") or nil
+	
+				-- Remove existing elements if turning off
+				if not isKillerHighlightActive then
+					if existingBillboard then existingBillboard:Destroy() end
+					if existingHighlight then existingHighlight:Destroy() end
+					if existingBox then existingBox:Destroy() end
+					if existingHealthBar then existingHealthBar:Destroy() end
+					return
+				end
+	
+				-- Skip if already has elements
+				if existingBillboard and existingHighlight and existingBox and existingHealthBar then
+					return
+				end
+	
+				-- Create billboard
+				if not existingBillboard then
+					local billboard = Instance.new("BillboardGui")
+					billboard.Name = "billboard"
+					billboard.Size = UDim2.new(0, 100, 0, 50)
+					billboard.StudsOffset = Vector3.new(0, 2, 0)
+					billboard.AlwaysOnTop = true
+					billboard.Parent = model.Head
+	
+					local textLabel = Instance.new("TextLabel")
+					textLabel.Size = UDim2.new(1, 0, 1, 0)
+					textLabel.Text = model.Name
+					textLabel.TextColor3 = Color3.new(1, 1, 1)
+					textLabel.TextStrokeTransparency = 0
+					textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+					textLabel.BackgroundTransparency = 1
+					textLabel.Parent = billboard
+				end
+	
+				-- Create highlight
+				if not existingHighlight then
+					local highlight = Instance.new("Highlight")
+					highlight.Name = "HiThere"
+					highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+					highlight.FillColor = Color3.fromRGB(255, 0, 0)
+					highlight.OutlineColor = Color3.fromRGB(255, 255, 255)
+					highlight.Parent = model
+				end
+	
+				-- Create ESP box if model has PrimaryPart
+				if model.PrimaryPart and not existingBox then
+					local box = Instance.new("BoxHandleAdornment")
+					box.Name = "ESPBox"
+					box.Size = model:GetExtentsSize()
+					box.Color3 = Color3.new(1, 0, 0)
+					box.Transparency = 0.5
+					box.AlwaysOnTop = true
+					box.ZIndex = 1
+					box.Adornee = model.PrimaryPart
+					box.Parent = model
+				end
+	
+				-- Create health bar if model has PrimaryPart
+				if model.PrimaryPart and not existingHealthBar then
+					local healthBar = Instance.new("BillboardGui")
+					healthBar.Name = "HealthBar"
+					healthBar.Size = UDim2.new(0.8, 0, 2.5, 0)
+					healthBar.StudsOffset = Vector3.new(model:GetExtentsSize().X/2 + 0.8, 0, 0)
+					healthBar.AlwaysOnTop = true
+					healthBar.Parent = model.PrimaryPart
+	
+					local background = Instance.new("Frame")
+					background.Name = "Background"
+					background.Size = UDim2.new(0.3, 0, 1, 0)
+					background.Position = UDim2.new(0.35, 0, 0, 0)
+					background.BackgroundColor3 = Color3.new(0, 1, 0)
+					background.BorderSizePixel = 1
+					background.BorderColor3 = Color3.new(0, 0, 0)
+					background.Parent = healthBar
+	
+					local bar = Instance.new("Frame")
+					bar.Name = "Bar"
+					bar.Size = UDim2.new(1, 0, 1, 0)
+					bar.AnchorPoint = Vector2.new(0, 1)
+					bar.Position = UDim2.new(0, 0, 1, 0)
+					bar.BackgroundColor3 = Color3.new(1, 0, 0)
+					bar.BorderSizePixel = 0
+					bar.ZIndex = 2
+					bar.Parent = background
+	
+					local percentageText = Instance.new("TextLabel")
+					percentageText.Name = "PercentageText"
+					percentageText.Size = UDim2.new(1, 0, 0.2, 0)
+					percentageText.Position = UDim2.new(0, 0, -0.2, 0)
+					percentageText.Text = "100%"
+					percentageText.TextColor3 = Color3.new(1, 1, 1)
+					percentageText.TextStrokeTransparency = 0
+					percentageText.TextStrokeColor3 = Color3.new(0, 0, 0)
+					percentageText.BackgroundTransparency = 1
+					percentageText.Font = Enum.Font.SourceSansBold
+					percentageText.TextSize = 14
+					percentageText.ZIndex = 3
+					percentageText.Parent = healthBar
+	
+					-- Health update function
+					local function updateHealth()
+						local humanoid = model:FindFirstChildOfClass("Humanoid")
+						if humanoid then
+							local healthPercent = humanoid.Health / humanoid.MaxHealth
+							local percentage = math.floor(healthPercent * 100)
+	
+							bar.Size = UDim2.new(1, 0, healthPercent, 0)
+							bar.BackgroundColor3 = Color3.new(1 - healthPercent, healthPercent, 0)
+							percentageText.Text = percentage .. "%"
+						end
+					end
+	
+					-- Connect health updates
+					local humanoid = model:FindFirstChildOfClass("Humanoid")
+					if humanoid then
+						updateHealth()
+						humanoid:GetPropertyChangedSignal("Health"):Connect(updateHealth)
+					end
+				end
+			end
+		end
+	
+		-- Apply to existing killers
+		for _, killer in pairs(game.Workspace.Players.Killers:GetChildren()) do
+			applyKillerHighlight(killer)
+		end
+	
+		-- Connect for new killers
+		game.Workspace.Players.Killers.ChildAdded:Connect(function(child)
+			applyKillerHighlight(child)
+		end)
+	end
+	
+	-- Button toggle functionality
+	button.Activated:Connect(function()
+		isKillerHighlightActive = not isKillerHighlightActive
+		killerHighlighter(isKillerHighlightActive)
+	
+		-- Update button text
+		button.Text = isKillerHighlightActive and "Killer Highlighter On" or "Killer Highlighter Off"
+	end)
+	
+	-- Initialize
+	button.Text = "Killer Highlighter Off"
+	killerHighlighter(false)
+end
+coroutine.wrap(GAGDU_fake_script)()
+local function NFMUPH_fake_script() -- _2.LocalScript 
+	local script = Instance.new('LocalScript', _2)
+
+	local player = game:GetService("Players").LocalPlayer
+	local button = script.Parent -- Make sure this is your toggle button
+	local toolhighlightActive = false
+	
+	local function highlighttools(state)
+		toolhighlightActive = state
+	
+		local function applyHighlight(tool)
+			if not tool:IsA("Tool") then return end
+	
+			local existinghighlight = tool:FindFirstChild("ToolHighlight")
+	
+			-- Remove highlight if turning off
+			if not toolhighlightActive then
+				if existinghighlight then
+					existinghighlight:Destroy()
+				end
+				return
+			end
+	
+			-- Skip if already has highlight
+			if existinghighlight then return end
+	
+			-- Create new highlight with color coding
+			local toolhighlight = Instance.new("Highlight")
+			toolhighlight.Name = "ToolHighlight"
+			toolhighlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+			toolhighlight.OutlineTransparency = 0.5
+	
+			-- Color coding based on tool type
+			if tool.Name == "Medkit" then
+				toolhighlight.FillColor = Color3.fromRGB(0, 255, 0) -- Green for medkits
+				toolhighlight.OutlineColor = Color3.fromRGB(0, 200, 0)
+			elseif tool.Name == "BloxyCola" then
+				toolhighlight.FillColor = Color3.fromRGB(88, 57, 39) -- Brown for cola
+				toolhighlight.OutlineColor = Color3.fromRGB(60, 40, 30)
+			else
+				toolhighlight.FillColor = Color3.fromRGB(255, 255, 0) -- Yellow for other tools
+				toolhighlight.OutlineColor = Color3.fromRGB(200, 200, 0)
+			end
+	
+			toolhighlight.Parent = tool
+		end
+	
+		-- Apply to existing tools
+		for _, item in pairs(game.Workspace.Map.Ingame:GetChildren()) do
+			applyHighlight(item)
+		end
+	
+		-- Connect for new tools
+		game.Workspace.Map.Ingame.ChildAdded:Connect(function(child)
+			applyHighlight(child)
+		end)
+	end
+	
+	-- Button toggle functionality
+	button.Activated:Connect(function()
+		toolhighlightActive = not toolhighlightActive
+		highlighttools(toolhighlightActive)
+	
+		-- Update button text
+		button.Text = toolhighlightActive and "Tool Highlighter On" or "Tool Highlighter Off"
+	end)
+	
+	-- Initialize
+	button.Text = "Tool Highlighter Off"
+	highlighttools(false)
+end
+coroutine.wrap(NFMUPH_fake_script)()
+local function CGXT_fake_script() -- _1.LocalScript 
+	local script = Instance.new('LocalScript', _1)
+
+	local player = game:GetService("Players").LocalPlayer
+	local button = script.Parent -- Make sure this is your toggle button
+	local isSurvivorHighlightActive = false
+	
+	local function survivorHighlighter(state)
+		isSurvivorHighlightActive = state
+	
+		local function applySurvivorHighlight(model)
+			if model:IsA("Model") and model:FindFirstChild("Head") then
+				-- Clean up existing elements first
+				local existingBillboard = model.Head:FindFirstChild("billboard")
+				local existingHighlight = model:FindFirstChild("HiThere")
+				local existingBox = model:FindFirstChild("ESPBox")
+				local existingHealthBar = model.PrimaryPart and model.PrimaryPart:FindFirstChild("HealthBar") or nil
+	
+				-- Remove existing elements if turning off
+				if not isSurvivorHighlightActive then
+					if existingBillboard then existingBillboard:Destroy() end
+					if existingHighlight then existingHighlight:Destroy() end
+					if existingBox then existingBox:Destroy() end
+					if existingHealthBar then existingHealthBar:Destroy() end
+					return
+				end
+	
+				-- Skip if already has elements
+				if existingBillboard and existingHighlight and existingBox and existingHealthBar then
+					return
+				end
+	
+				-- Create billboard
+				if not existingBillboard then
+					local billboard = Instance.new("BillboardGui")
+					billboard.Name = "billboard"
+					billboard.Size = UDim2.new(0, 100, 0, 50)
+					billboard.StudsOffset = Vector3.new(0, 2, 0)
+					billboard.AlwaysOnTop = true
+					billboard.Parent = model.Head
+	
+					local textLabel = Instance.new("TextLabel")
+					textLabel.Size = UDim2.new(1, 0, 1, 0)
+					textLabel.Text = model.Name
+					textLabel.TextColor3 = Color3.new(1, 1, 1)
+					textLabel.TextStrokeTransparency = 0
+					textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+					textLabel.BackgroundTransparency = 1
+					textLabel.Parent = billboard
+				end
+	
+				-- Create highlight (blue for survivors)
+				if not existingHighlight then
+					local highlight = Instance.new("Highlight")
+					highlight.Name = "HiThere"
+					highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+					highlight.FillColor = Color3.fromRGB(0, 0, 252)
+					highlight.OutlineColor = Color3.fromRGB(255, 255, 255)
+					highlight.Parent = model
+				end
+	
+				-- Create ESP box if model has PrimaryPart (blue for survivors)
+				if model.PrimaryPart and not existingBox then
+					local box = Instance.new("BoxHandleAdornment")
+					box.Name = "ESPBox"
+					box.Size = model:GetExtentsSize()
+					box.Color3 = Color3.new(0, 0, 1)
+					box.Transparency = 0.5
+					box.AlwaysOnTop = true
+					box.ZIndex = 1
+					box.Adornee = model.PrimaryPart
+					box.Parent = model
+				end
+	
+				-- Create health bar if model has PrimaryPart
+				if model.PrimaryPart and not existingHealthBar then
+					local healthBar = Instance.new("BillboardGui")
+					healthBar.Name = "HealthBar"
+					healthBar.Size = UDim2.new(0.5, 0, 2, 0)
+					healthBar.StudsOffset = Vector3.new(model:GetExtentsSize().X/2 + 0.5, 0, 0)
+					healthBar.AlwaysOnTop = true
+					healthBar.Parent = model.PrimaryPart
+	
+					local background = Instance.new("Frame")
+					background.Name = "Background"
+					background.Size = UDim2.new(0.3, 0, 1, 0)
+					background.Position = UDim2.new(0.35, 0, 0, 0)
+					background.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+					background.BorderSizePixel = 1
+					background.BorderColor3 = Color3.new(0, 0, 0)
+					background.Parent = healthBar
+	
+					local bar = Instance.new("Frame")
+					bar.Name = "Bar"
+					bar.Size = UDim2.new(1, 0, 1, 0)
+					bar.AnchorPoint = Vector2.new(0, 1)
+					bar.Position = UDim2.new(0, 0, 1, 0)
+					bar.BackgroundColor3 = Color3.new(0, 1, 0)
+					bar.BorderSizePixel = 0
+					bar.ZIndex = 2
+					bar.Parent = background
+	
+					-- Health update function
+					local function updateHealth()
+						local humanoid = model:FindFirstChildOfClass("Humanoid")
+						if humanoid then
+							local healthPercent = humanoid.Health / humanoid.MaxHealth
+	
+							bar.Size = UDim2.new(1, 0, healthPercent, 0)
+	
+							-- Color transitions from green to red as health decreases
+							local r = math.clamp(2 * (1 - healthPercent), 0, 1)
+							local g = math.clamp(2 * healthPercent, 0, 1)
+							bar.BackgroundColor3 = Color3.new(r, g, 0)
+						end
+					end
+	
+					-- Connect health updates
+					local humanoid = model:FindFirstChildOfClass("Humanoid")
+					if humanoid then
+						updateHealth()
+						humanoid:GetPropertyChangedSignal("Health"):Connect(updateHealth)
+					end
+				end
+			end
+		end
+	
+		-- Apply to existing survivors
+		for _, survivor in pairs(game.Workspace.Players.Survivors:GetChildren()) do
+			applySurvivorHighlight(survivor)
+		end
+	
+		-- Connect for new survivors
+		game.Workspace.Players.Survivors.ChildAdded:Connect(function(child)
+			applySurvivorHighlight(child)
+		end)
+	end
+	
+	-- Button toggle functionality
+	button.Activated:Connect(function()
+		isSurvivorHighlightActive = not isSurvivorHighlightActive
+		survivorHighlighter(isSurvivorHighlightActive)
+	
+		-- Update button text
+		button.Text = isSurvivorHighlightActive and "Survivor Highlighter On" or "Survivor Highlighter Off"
+	end)
+	
+	-- Initialize
+	button.Text = "Survivor Highlighter Off"
+	survivorHighlighter(false)
+end
+coroutine.wrap(CGXT_fake_script)()
+local function CFYLHB_fake_script() -- _3_2.LocalScript 
+	local script = Instance.new('LocalScript', _3_2)
+
+	local player = game:GetService("Players").LocalPlayer
+	local playergui = player:WaitForChild("PlayerGui")
+	local button = script.Parent 
+	
+	local hideplayerbar = false
+	
+	local function togglehidebar(state)
+		hideplayerbar = state
+	
+		
+		local success, err = pcall(function()
+			local temporaryUI = playergui:WaitForChild("TemporaryUI", 2)
+			local playerinfo = temporaryUI and temporaryUI:WaitForChild("PlayerInfo", 2)
+	
+			if playerinfo then
+				local currentSurvivors = playerinfo:FindFirstChild("CurrentSurvivors")
+				local playerIcon = playerinfo:FindFirstChild("PlayerIcon")
+	
+				if currentSurvivors then
+					currentSurvivors.Visible = not hideplayerbar
+				end
+	
+				if playerIcon and playerIcon:IsA("ImageLabel") then
+					playerIcon.Image = hideplayerbar and "rbxassetid://12549056837" or playerIcon.Image
+				end
+			end
+		end)
+	
+		if not success then
+			warn("UI toggle error:", err)
+		end
+	end
+	
+	
+	button.Activated:Connect(function()
+		hideplayerbar = not hideplayerbar
+		togglehidebar(hideplayerbar)
+	
+	
+		button.Text = hideplayerbar and "Hide Player Bar On" or "Hide Player Bar Off"
+	end)
+	
+	
+	button.Text = "Hide Player Bar Off"
+	togglehidebar(false)
+end
+coroutine.wrap(CFYLHB_fake_script)()
+local function JVWRGQ_fake_script() 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	local myScreenGui = playerGui:WaitForChild("c00lgui") -- Your GUI
+	local myScreenGui = playerGui:WaitForChild("c00lgui") 
 	
-	-- Set this to be higher than other GUIs (default is 0)
+	
 	myScreenGui.DisplayOrder = 1000
 end
-coroutine.wrap(MLTD_fake_script)()
+coroutine.wrap(JVWRGQ_fake_script)()
