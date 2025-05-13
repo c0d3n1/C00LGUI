@@ -45,30 +45,16 @@ local Random1 = Instance.new("Frame")
 local Random1_2 = Instance.new("Frame")
 local Page1_2 = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local Page4 = Instance.new("Frame")
+local Page5 = Instance.new("Frame")
 local MiscTab_2 = Instance.new("Frame")
 local Random1_3 = Instance.new("Frame")
 local Random1_4 = Instance.new("Frame")
 local Random2_2 = Instance.new("Frame")
 local Tab_2 = Instance.new("Frame")
-local Clear = Instance.new("TextButton")
 local Close_2 = Instance.new("TextButton")
-local Execute = Instance.new("TextButton")
-local Executor = Instance.new("TextLabel")
-local Page1_3 = Instance.new("TextLabel")
-local Title_2 = Instance.new("TextLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local TextBox = Instance.new("TextBox")
-local Page5 = Instance.new("Frame")
-local MiscTab_3 = Instance.new("Frame")
-local Random1_5 = Instance.new("Frame")
-local Random1_6 = Instance.new("Frame")
-local Random2_3 = Instance.new("Frame")
-local Tab_3 = Instance.new("Frame")
-local Close_3 = Instance.new("TextButton")
 local Credits = Instance.new("TextLabel")
 local Page3 = Instance.new("TextLabel")
-local Title_3 = Instance.new("TextLabel")
+local Title_2 = Instance.new("TextLabel")
 local Credits_2 = Instance.new("TextLabel")
 local Page2 = Instance.new("Frame")
 local Forsaken1 = Instance.new("Folder")
@@ -85,9 +71,9 @@ local Script8_2 = Instance.new("TextButton")
 local Script10_2 = Instance.new("TextButton")
 local Script12_2 = Instance.new("TextButton")
 local Misc_2 = Instance.new("TextLabel")
-local Title_4 = Instance.new("TextLabel")
-local Tab_4 = Instance.new("Frame")
-local MiscTab_4 = Instance.new("Frame")
+local Title_3 = Instance.new("TextLabel")
+local Tab_3 = Instance.new("Frame")
+local MiscTab_3 = Instance.new("Frame")
 local Forsaken2 = Instance.new("Folder")
 local Script16_2 = Instance.new("TextButton")
 local Script14_2 = Instance.new("TextButton")
@@ -103,17 +89,17 @@ local Script23_2 = Instance.new("TextButton")
 local Script21_2 = Instance.new("TextButton")
 local AdminGui_3 = Instance.new("TextLabel")
 local AdminGuiTab_2 = Instance.new("Frame")
-local Random2_4 = Instance.new("Frame")
-local Random1_7 = Instance.new("Frame")
-local Random1_8 = Instance.new("Frame")
-local Page1_4 = Instance.new("TextLabel")
-local Close_4 = Instance.new("TextButton")
+local Random2_3 = Instance.new("Frame")
+local Random1_5 = Instance.new("Frame")
+local Random1_6 = Instance.new("Frame")
+local Page1_3 = Instance.new("TextLabel")
+local Close_3 = Instance.new("TextButton")
 local Page3_2 = Instance.new("Frame")
 local Forsaken1_2 = Instance.new("Folder")
 local Line = Instance.new("TextButton")
 local _4 = Instance.new("TextButton")
 local _3 = Instance.new("TextButton")
-local Title_5 = Instance.new("TextLabel")
+local Title_4 = Instance.new("TextLabel")
 local Forsaken2_2 = Instance.new("Folder")
 local Line_2 = Instance.new("TextButton")
 local _2 = Instance.new("TextButton")
@@ -121,12 +107,26 @@ local _1 = Instance.new("TextButton")
 local _3_2 = Instance.new("TextButton")
 local SettingsTab = Instance.new("Frame")
 local Random3 = Instance.new("Frame")
+local Random1_7 = Instance.new("Frame")
+local Random2_4 = Instance.new("Frame")
+local Page1_4 = Instance.new("TextLabel")
+local Visuals = Instance.new("TextLabel")
+local Close_4 = Instance.new("TextButton")
+local Tab_4 = Instance.new("Frame")
+local Page4 = Instance.new("Frame")
+local MiscTab_4 = Instance.new("Frame")
+local Random1_8 = Instance.new("Frame")
 local Random1_9 = Instance.new("Frame")
 local Random2_5 = Instance.new("Frame")
-local Page1_5 = Instance.new("TextLabel")
-local Visuals = Instance.new("TextLabel")
-local Close_5 = Instance.new("TextButton")
 local Tab_5 = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local Close_5 = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Executor = Instance.new("TextLabel")
+local Page1_5 = Instance.new("TextLabel")
+local Title_5 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextBox = Instance.new("TextBox")
 
 --Properties:
 
@@ -155,7 +155,7 @@ ForwardButton.Parent = c00lgui
 ForwardButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ForwardButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
 ForwardButton.BorderSizePixel = 2
-ForwardButton.Position = UDim2.new(0.0860000029, 0, 0.340000004, -18)
+ForwardButton.Position = UDim2.new(0.0860000029, 0, 0.340000004, -15)
 ForwardButton.Size = UDim2.new(0, 157, 0, 41)
 ForwardButton.ZIndex = 10000
 ForwardButton.Font = Enum.Font.SourceSans
@@ -169,7 +169,7 @@ BackButton.Parent = c00lgui
 BackButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 BackButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
 BackButton.BorderSizePixel = 2
-BackButton.Position = UDim2.new(0.00100000005, -2, 0.340000004, -18)
+BackButton.Position = UDim2.new(0.00100000005, -2, 0.340000004, -15)
 BackButton.Size = UDim2.new(0, 161, 0, 41)
 BackButton.ZIndex = 10000
 BackButton.Font = Enum.Font.SourceSans
@@ -630,17 +630,17 @@ Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 18.000
 Close.TextWrapped = true
 
-Page4.Name = "Page4"
-Page4.Parent = c00lgui
-Page4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Page4.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Page4.BorderSizePixel = 2
-Page4.Position = UDim2.new(0, 0, 0.275999993, 0)
-Page4.Size = UDim2.new(0, 323, 0, 406)
-Page4.ZIndex = 1000
+Page5.Name = "Page5"
+Page5.Parent = c00lgui
+Page5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Page5.BorderSizePixel = 2
+Page5.Position = UDim2.new(0, 0, 0.275999993, 0)
+Page5.Size = UDim2.new(0, 323, 0, 406)
+Page5.ZIndex = 1000
 
 MiscTab_2.Name = "MiscTab"
-MiscTab_2.Parent = Page4
+MiscTab_2.Parent = Page5
 MiscTab_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MiscTab_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 MiscTab_2.BorderSizePixel = 2
@@ -648,7 +648,7 @@ MiscTab_2.Position = UDim2.new(0.00599996373, -2, 0.299999982, -9)
 MiscTab_2.Size = UDim2.new(0, 323, 0, -25)
 
 Random1_3.Name = "Random1"
-Random1_3.Parent = Page4
+Random1_3.Parent = Page5
 Random1_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Random1_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Random1_3.BorderSizePixel = 2
@@ -656,7 +656,7 @@ Random1_3.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
 Random1_3.Size = UDim2.new(0, 323, 0, -29)
 
 Random1_4.Name = "Random1"
-Random1_4.Parent = Page4
+Random1_4.Parent = Page5
 Random1_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Random1_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Random1_4.BorderSizePixel = 2
@@ -664,7 +664,7 @@ Random1_4.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
 Random1_4.Size = UDim2.new(0, 161, 0, -25)
 
 Random2_2.Name = "Random2"
-Random2_2.Parent = Page4
+Random2_2.Parent = Page5
 Random2_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Random2_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Random2_2.BorderSizePixel = 2
@@ -672,29 +672,15 @@ Random2_2.Position = UDim2.new(0.511520326, -1, 0.868000031, -14)
 Random2_2.Size = UDim2.new(0, 159, 0, -25)
 
 Tab_2.Name = "Tab"
-Tab_2.Parent = Page4
+Tab_2.Parent = Page5
 Tab_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Tab_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Tab_2.BorderSizePixel = 2
 Tab_2.Position = UDim2.new(0, 0, 0.0930000022, 1)
 Tab_2.Size = UDim2.new(0, 323, 0, -38)
 
-Clear.Name = "Clear"
-Clear.Parent = Page4
-Clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Clear.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Clear.BorderSizePixel = 2
-Clear.Position = UDim2.new(0.710413814, 6, 0.701796114, -5)
-Clear.Size = UDim2.new(0, 80, 0, 19)
-Clear.Font = Enum.Font.SourceSans
-Clear.Text = "Clear"
-Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
-Clear.TextScaled = true
-Clear.TextSize = 13.000
-Clear.TextWrapped = true
-
 Close_2.Name = "Close"
-Close_2.Parent = Page4
+Close_2.Parent = Page5
 Close_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Close_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Close_2.BorderSizePixel = 2
@@ -705,152 +691,6 @@ Close_2.Text = "Close"
 Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.TextSize = 18.000
 Close_2.TextWrapped = true
-
-Execute.Name = "Execute"
-Execute.Parent = Page4
-Execute.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Execute.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Execute.BorderSizePixel = 2
-Execute.Position = UDim2.new(-0.00296195457, 6, 0.701796114, -5)
-Execute.Size = UDim2.new(0, 80, 0, 19)
-Execute.Font = Enum.Font.SourceSans
-Execute.Text = "Execute"
-Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
-Execute.TextScaled = true
-Execute.TextSize = 13.000
-Execute.TextWrapped = true
-
-Executor.Name = "Executor"
-Executor.Parent = Page4
-Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Executor.BackgroundTransparency = 1.000
-Executor.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Executor.BorderSizePixel = 2
-Executor.Position = UDim2.new(0.0231177732, -2, 0.236117885, -5)
-Executor.Size = UDim2.new(0, 309, 0, 19)
-Executor.ZIndex = 2
-Executor.Font = Enum.Font.SourceSans
-Executor.Text = "Executor"
-Executor.TextColor3 = Color3.fromRGB(255, 255, 255)
-Executor.TextScaled = true
-Executor.TextSize = 26.000
-Executor.TextWrapped = true
-
-Page1_3.Name = "Page1"
-Page1_3.Parent = Page4
-Page1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page1_3.BackgroundTransparency = 1.000
-Page1_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Page1_3.BorderSizePixel = 2
-Page1_3.Position = UDim2.new(0.275061548, 0, 0.855235875, 0)
-Page1_3.Size = UDim2.new(0, 149, 0, 16)
-Page1_3.ZIndex = 2
-Page1_3.Font = Enum.Font.SourceSans
-Page1_3.Text = "Page 2"
-Page1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page1_3.TextScaled = true
-Page1_3.TextSize = 26.000
-Page1_3.TextWrapped = true
-
-Title_2.Name = "Title"
-Title_2.Parent = Page4
-Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_2.BackgroundTransparency = 1.000
-Title_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Title_2.BorderSizePixel = 2
-Title_2.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
-Title_2.Size = UDim2.new(0, 296, 0, 30)
-Title_2.ZIndex = 2
-Title_2.Font = Enum.Font.SourceSans
-Title_2.Text = "c00lgui V1.1  by PureSigma"
-Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_2.TextSize = 26.000
-Title_2.TextWrapped = true
-
-ScrollingFrame.Parent = Page4
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
-ScrollingFrame.BorderSizePixel = 2
-ScrollingFrame.Position = UDim2.new(0.0169258229, 0, 0.302955657, 0)
-ScrollingFrame.Size = UDim2.new(0, 309, 0, 147)
-
-TextBox.Parent = ScrollingFrame
-TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.0268131979, 0, 0, 0)
-TextBox.Size = UDim2.new(0, 286, 0, 145)
-TextBox.ZIndex = 2
-TextBox.ClearTextOnFocus = false
-TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = "print(\"I eat niggas\")"
-TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.TextSize = 14.000
-TextBox.TextXAlignment = Enum.TextXAlignment.Left
-TextBox.TextYAlignment = Enum.TextYAlignment.Top
-
-Page5.Name = "Page5"
-Page5.Parent = c00lgui
-Page5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Page5.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Page5.BorderSizePixel = 2
-Page5.Position = UDim2.new(0, 0, 0.275999993, 0)
-Page5.Size = UDim2.new(0, 323, 0, 406)
-Page5.ZIndex = 1000
-
-MiscTab_3.Name = "MiscTab"
-MiscTab_3.Parent = Page5
-MiscTab_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MiscTab_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-MiscTab_3.BorderSizePixel = 2
-MiscTab_3.Position = UDim2.new(0.00599996373, -2, 0.299999982, -9)
-MiscTab_3.Size = UDim2.new(0, 323, 0, -25)
-
-Random1_5.Name = "Random1"
-Random1_5.Parent = Page5
-Random1_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random1_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random1_5.BorderSizePixel = 2
-Random1_5.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
-Random1_5.Size = UDim2.new(0, 323, 0, -29)
-
-Random1_6.Name = "Random1"
-Random1_6.Parent = Page5
-Random1_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random1_6.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random1_6.BorderSizePixel = 2
-Random1_6.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
-Random1_6.Size = UDim2.new(0, 161, 0, -25)
-
-Random2_3.Name = "Random2"
-Random2_3.Parent = Page5
-Random2_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random2_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random2_3.BorderSizePixel = 2
-Random2_3.Position = UDim2.new(0.511520326, -1, 0.868000031, -14)
-Random2_3.Size = UDim2.new(0, 159, 0, -25)
-
-Tab_3.Name = "Tab"
-Tab_3.Parent = Page5
-Tab_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Tab_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Tab_3.BorderSizePixel = 2
-Tab_3.Position = UDim2.new(0, 0, 0.0930000022, 1)
-Tab_3.Size = UDim2.new(0, 323, 0, -38)
-
-Close_3.Name = "Close"
-Close_3.Parent = Page5
-Close_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Close_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Close_3.BorderSizePixel = 2
-Close_3.Position = UDim2.new(-0.00899999961, 3, 0.959999979, -17)
-Close_3.Size = UDim2.new(0, 323, 0, 31)
-Close_3.Font = Enum.Font.SourceSans
-Close_3.Text = "Close"
-Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close_3.TextSize = 18.000
-Close_3.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = Page5
@@ -884,20 +724,20 @@ Page3.TextScaled = true
 Page3.TextSize = 26.000
 Page3.TextWrapped = true
 
-Title_3.Name = "Title"
-Title_3.Parent = Page5
-Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_3.BackgroundTransparency = 1.000
-Title_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Title_3.BorderSizePixel = 2
-Title_3.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
-Title_3.Size = UDim2.new(0, 296, 0, 30)
-Title_3.ZIndex = 2
-Title_3.Font = Enum.Font.SourceSans
-Title_3.Text = "c00lgui V1.1  by PureSigma"
-Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_3.TextSize = 26.000
-Title_3.TextWrapped = true
+Title_2.Name = "Title"
+Title_2.Parent = Page5
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_2.BorderSizePixel = 2
+Title_2.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
+Title_2.Size = UDim2.new(0, 296, 0, 30)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.SourceSans
+Title_2.Text = "c00lgui V1.1  by PureSigma"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 26.000
+Title_2.TextWrapped = true
 
 Credits_2.Name = "Credits"
 Credits_2.Parent = Page5
@@ -1103,36 +943,36 @@ Misc_2.TextScaled = true
 Misc_2.TextSize = 26.000
 Misc_2.TextWrapped = true
 
-Title_4.Name = "Title"
-Title_4.Parent = Page2
-Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_4.BackgroundTransparency = 1.000
-Title_4.BorderColor3 = Color3.fromRGB(160, 82, 45)
-Title_4.BorderSizePixel = 2
-Title_4.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
-Title_4.Size = UDim2.new(0, 296, 0, 30)
-Title_4.ZIndex = 2
-Title_4.Font = Enum.Font.SourceSans
-Title_4.Text = "c00lgui V1.1  by PureSigma"
-Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_4.TextSize = 26.000
-Title_4.TextWrapped = true
+Title_3.Name = "Title"
+Title_3.Parent = Page2
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(160, 82, 45)
+Title_3.BorderSizePixel = 2
+Title_3.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
+Title_3.Size = UDim2.new(0, 296, 0, 30)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.SourceSans
+Title_3.Text = "c00lgui V1.1  by PureSigma"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 26.000
+Title_3.TextWrapped = true
 
-Tab_4.Name = "Tab"
-Tab_4.Parent = Page2
-Tab_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Tab_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Tab_4.BorderSizePixel = 2
-Tab_4.Position = UDim2.new(0, 0, 0.0930000022, 1)
-Tab_4.Size = UDim2.new(0, 323, 0, -38)
+Tab_3.Name = "Tab"
+Tab_3.Parent = Page2
+Tab_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Tab_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Tab_3.BorderSizePixel = 2
+Tab_3.Position = UDim2.new(0, 0, 0.0930000022, 1)
+Tab_3.Size = UDim2.new(0, 323, 0, -38)
 
-MiscTab_4.Name = "MiscTab"
-MiscTab_4.Parent = Page2
-MiscTab_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MiscTab_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
-MiscTab_4.BorderSizePixel = 2
-MiscTab_4.Position = UDim2.new(0.00600000005, -2, 0.300000012, -9)
-MiscTab_4.Size = UDim2.new(0, 161, 0, -25)
+MiscTab_3.Name = "MiscTab"
+MiscTab_3.Parent = Page2
+MiscTab_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MiscTab_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+MiscTab_3.BorderSizePixel = 2
+MiscTab_3.Position = UDim2.new(0.00600000005, -2, 0.300000012, -9)
+MiscTab_3.Size = UDim2.new(0, 161, 0, -25)
 
 Forsaken2.Name = "Forsaken2"
 Forsaken2.Parent = Page2
@@ -1321,58 +1161,58 @@ AdminGuiTab_2.BorderSizePixel = 2
 AdminGuiTab_2.Position = UDim2.new(0.52736938, -2, 0.300000012, -9)
 AdminGuiTab_2.Size = UDim2.new(0, 159, 0, -25)
 
-Random2_4.Name = "Random2"
-Random2_4.Parent = Page2
-Random2_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random2_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random2_4.BorderSizePixel = 2
-Random2_4.Position = UDim2.new(0.52700001, -1, 0.868000031, -14)
-Random2_4.Size = UDim2.new(0, 159, 0, -25)
+Random2_3.Name = "Random2"
+Random2_3.Parent = Page2
+Random2_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random2_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random2_3.BorderSizePixel = 2
+Random2_3.Position = UDim2.new(0.52700001, -1, 0.868000031, -14)
+Random2_3.Size = UDim2.new(0, 159, 0, -25)
 
-Random1_7.Name = "Random1"
-Random1_7.Parent = Page2
-Random1_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random1_7.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random1_7.BorderSizePixel = 2
-Random1_7.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
-Random1_7.Size = UDim2.new(0, 161, 0, -25)
+Random1_5.Name = "Random1"
+Random1_5.Parent = Page2
+Random1_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random1_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random1_5.BorderSizePixel = 2
+Random1_5.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
+Random1_5.Size = UDim2.new(0, 161, 0, -25)
 
-Random1_8.Name = "Random1"
-Random1_8.Parent = Page2
-Random1_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random1_8.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random1_8.BorderSizePixel = 2
-Random1_8.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
-Random1_8.Size = UDim2.new(0, 323, 0, -29)
+Random1_6.Name = "Random1"
+Random1_6.Parent = Page2
+Random1_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random1_6.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random1_6.BorderSizePixel = 2
+Random1_6.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
+Random1_6.Size = UDim2.new(0, 323, 0, -29)
 
-Page1_4.Name = "Page1"
-Page1_4.Parent = Page2
-Page1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page1_4.BackgroundTransparency = 1.000
-Page1_4.BorderColor3 = Color3.fromRGB(160, 82, 45)
-Page1_4.BorderSizePixel = 2
-Page1_4.Position = UDim2.new(0.275000006, 0, 0.855000019, 0)
-Page1_4.Size = UDim2.new(0, 149, 0, 16)
-Page1_4.ZIndex = 2
-Page1_4.Font = Enum.Font.SourceSans
-Page1_4.Text = "Page 1"
-Page1_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page1_4.TextScaled = true
-Page1_4.TextSize = 26.000
-Page1_4.TextWrapped = true
+Page1_3.Name = "Page1"
+Page1_3.Parent = Page2
+Page1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1_3.BackgroundTransparency = 1.000
+Page1_3.BorderColor3 = Color3.fromRGB(160, 82, 45)
+Page1_3.BorderSizePixel = 2
+Page1_3.Position = UDim2.new(0.275000006, 0, 0.855000019, 0)
+Page1_3.Size = UDim2.new(0, 149, 0, 16)
+Page1_3.ZIndex = 2
+Page1_3.Font = Enum.Font.SourceSans
+Page1_3.Text = "Page 1"
+Page1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1_3.TextScaled = true
+Page1_3.TextSize = 26.000
+Page1_3.TextWrapped = true
 
-Close_4.Name = "Close"
-Close_4.Parent = Page2
-Close_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Close_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Close_4.BorderSizePixel = 2
-Close_4.Position = UDim2.new(-0.00899999961, 3, 0.959999979, -17)
-Close_4.Size = UDim2.new(0, 323, 0, 31)
-Close_4.Font = Enum.Font.SourceSans
-Close_4.Text = "Close"
-Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close_4.TextSize = 18.000
-Close_4.TextWrapped = true
+Close_3.Name = "Close"
+Close_3.Parent = Page2
+Close_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Close_3.BorderSizePixel = 2
+Close_3.Position = UDim2.new(-0.00899999961, 3, 0.959999979, -17)
+Close_3.Size = UDim2.new(0, 323, 0, 31)
+Close_3.Font = Enum.Font.SourceSans
+Close_3.Text = "Close"
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextSize = 18.000
+Close_3.TextWrapped = true
 
 Page3_2.Name = "Page3"
 Page3_2.Parent = c00lgui
@@ -1427,20 +1267,20 @@ _3.TextScaled = true
 _3.TextSize = 16.000
 _3.TextWrapped = true
 
-Title_5.Name = "Title"
-Title_5.Parent = Page3_2
-Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_5.BackgroundTransparency = 1.000
-Title_5.BorderColor3 = Color3.fromRGB(160, 82, 45)
-Title_5.BorderSizePixel = 2
-Title_5.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
-Title_5.Size = UDim2.new(0, 296, 0, 30)
-Title_5.ZIndex = 2
-Title_5.Font = Enum.Font.SourceSans
-Title_5.Text = "c00lgui V1.1  by PureSigma"
-Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_5.TextSize = 26.000
-Title_5.TextWrapped = true
+Title_4.Name = "Title"
+Title_4.Parent = Page3_2
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.BorderColor3 = Color3.fromRGB(160, 82, 45)
+Title_4.BorderSizePixel = 2
+Title_4.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
+Title_4.Size = UDim2.new(0, 296, 0, 30)
+Title_4.ZIndex = 2
+Title_4.Font = Enum.Font.SourceSans
+Title_4.Text = "c00lgui V1.1  by PureSigma"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextSize = 26.000
+Title_4.TextWrapped = true
 
 Forsaken2_2.Name = "Forsaken2"
 Forsaken2_2.Parent = Page3_2
@@ -1517,37 +1357,37 @@ Random3.BorderSizePixel = 2
 Random3.Position = UDim2.new(0.52700001, -1, 0.868000031, -14)
 Random3.Size = UDim2.new(0, 159, 0, -25)
 
-Random1_9.Name = "Random1"
-Random1_9.Parent = Page3_2
-Random1_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random1_9.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random1_9.BorderSizePixel = 2
-Random1_9.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
-Random1_9.Size = UDim2.new(0, 161, 0, -25)
+Random1_7.Name = "Random1"
+Random1_7.Parent = Page3_2
+Random1_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random1_7.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random1_7.BorderSizePixel = 2
+Random1_7.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
+Random1_7.Size = UDim2.new(0, 161, 0, -25)
 
-Random2_5.Name = "Random2"
-Random2_5.Parent = Page3_2
-Random2_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Random2_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Random2_5.BorderSizePixel = 2
-Random2_5.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
-Random2_5.Size = UDim2.new(0, 323, 0, -29)
+Random2_4.Name = "Random2"
+Random2_4.Parent = Page3_2
+Random2_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random2_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random2_4.BorderSizePixel = 2
+Random2_4.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
+Random2_4.Size = UDim2.new(0, 323, 0, -29)
 
-Page1_5.Name = "Page1"
-Page1_5.Parent = Page3_2
-Page1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page1_5.BackgroundTransparency = 1.000
-Page1_5.BorderColor3 = Color3.fromRGB(160, 82, 45)
-Page1_5.BorderSizePixel = 2
-Page1_5.Position = UDim2.new(0.275000006, 0, 0.855000019, 0)
-Page1_5.Size = UDim2.new(0, 149, 0, 16)
-Page1_5.ZIndex = 2
-Page1_5.Font = Enum.Font.SourceSans
-Page1_5.Text = "Page 1"
-Page1_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page1_5.TextScaled = true
-Page1_5.TextSize = 26.000
-Page1_5.TextWrapped = true
+Page1_4.Name = "Page1"
+Page1_4.Parent = Page3_2
+Page1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1_4.BackgroundTransparency = 1.000
+Page1_4.BorderColor3 = Color3.fromRGB(160, 82, 45)
+Page1_4.BorderSizePixel = 2
+Page1_4.Position = UDim2.new(0.275000006, 0, 0.855000019, 0)
+Page1_4.Size = UDim2.new(0, 149, 0, 16)
+Page1_4.ZIndex = 2
+Page1_4.Font = Enum.Font.SourceSans
+Page1_4.Text = "Page 1"
+Page1_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1_4.TextScaled = true
+Page1_4.TextSize = 26.000
+Page1_4.TextWrapped = true
 
 Visuals.Name = "Visuals"
 Visuals.Parent = Page3_2
@@ -1565,8 +1405,92 @@ Visuals.TextScaled = true
 Visuals.TextSize = 26.000
 Visuals.TextWrapped = true
 
+Close_4.Name = "Close"
+Close_4.Parent = Page3_2
+Close_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Close_4.BorderSizePixel = 2
+Close_4.Position = UDim2.new(-0.00899999961, 3, 0.959999979, -17)
+Close_4.Size = UDim2.new(0, 323, 0, 31)
+Close_4.Font = Enum.Font.SourceSans
+Close_4.Text = "Close"
+Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.TextSize = 18.000
+Close_4.TextWrapped = true
+
+Tab_4.Name = "Tab"
+Tab_4.Parent = Page3_2
+Tab_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Tab_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Tab_4.BorderSizePixel = 2
+Tab_4.Position = UDim2.new(0, 0, 0.0930000022, 1)
+Tab_4.Size = UDim2.new(0, 323, 0, -38)
+
+Page4.Name = "Page4"
+Page4.Parent = c00lgui
+Page4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Page4.BorderSizePixel = 2
+Page4.Position = UDim2.new(0, 0, 0.275999993, 0)
+Page4.Size = UDim2.new(0, 323, 0, 406)
+Page4.ZIndex = 1000
+
+MiscTab_4.Name = "MiscTab"
+MiscTab_4.Parent = Page4
+MiscTab_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MiscTab_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+MiscTab_4.BorderSizePixel = 2
+MiscTab_4.Position = UDim2.new(0.00599996373, -2, 0.299999982, -9)
+MiscTab_4.Size = UDim2.new(0, 323, 0, -25)
+
+Random1_8.Name = "Random1"
+Random1_8.Parent = Page4
+Random1_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random1_8.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random1_8.BorderSizePixel = 2
+Random1_8.Position = UDim2.new(0.00300000003, -1, 0.949000001, -15)
+Random1_8.Size = UDim2.new(0, 323, 0, -29)
+
+Random1_9.Name = "Random1"
+Random1_9.Parent = Page4
+Random1_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random1_9.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random1_9.BorderSizePixel = 2
+Random1_9.Position = UDim2.new(0.00300000422, -1, 0.868000031, -14)
+Random1_9.Size = UDim2.new(0, 161, 0, -25)
+
+Random2_5.Name = "Random2"
+Random2_5.Parent = Page4
+Random2_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Random2_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Random2_5.BorderSizePixel = 2
+Random2_5.Position = UDim2.new(0.511520326, -1, 0.868000031, -14)
+Random2_5.Size = UDim2.new(0, 159, 0, -25)
+
+Tab_5.Name = "Tab"
+Tab_5.Parent = Page4
+Tab_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Tab_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Tab_5.BorderSizePixel = 2
+Tab_5.Position = UDim2.new(0, 0, 0.0930000022, 1)
+Tab_5.Size = UDim2.new(0, 323, 0, -38)
+
+Clear.Name = "Clear"
+Clear.Parent = Page4
+Clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Clear.BorderSizePixel = 2
+Clear.Position = UDim2.new(0.710413814, 6, 0.701796114, -5)
+Clear.Size = UDim2.new(0, 80, 0, 19)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 13.000
+Clear.TextWrapped = true
+
 Close_5.Name = "Close"
-Close_5.Parent = Page3_2
+Close_5.Parent = Page4
 Close_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Close_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
 Close_5.BorderSizePixel = 2
@@ -1578,17 +1502,93 @@ Close_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_5.TextSize = 18.000
 Close_5.TextWrapped = true
 
-Tab_5.Name = "Tab"
-Tab_5.Parent = Page3_2
-Tab_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Tab_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
-Tab_5.BorderSizePixel = 2
-Tab_5.Position = UDim2.new(0, 0, 0.0930000022, 1)
-Tab_5.Size = UDim2.new(0, 323, 0, -38)
+Execute.Name = "Execute"
+Execute.Parent = Page4
+Execute.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Execute.BorderSizePixel = 2
+Execute.Position = UDim2.new(-0.00296195457, 6, 0.701796114, -5)
+Execute.Size = UDim2.new(0, 80, 0, 19)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 13.000
+Execute.TextWrapped = true
+
+Executor.Name = "Executor"
+Executor.Parent = Page4
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BackgroundTransparency = 1.000
+Executor.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Executor.BorderSizePixel = 2
+Executor.Position = UDim2.new(0.0231177732, -2, 0.236117885, -5)
+Executor.Size = UDim2.new(0, 309, 0, 19)
+Executor.ZIndex = 2
+Executor.Font = Enum.Font.SourceSans
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executor.TextScaled = true
+Executor.TextSize = 26.000
+Executor.TextWrapped = true
+
+Page1_5.Name = "Page1"
+Page1_5.Parent = Page4
+Page1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1_5.BackgroundTransparency = 1.000
+Page1_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Page1_5.BorderSizePixel = 2
+Page1_5.Position = UDim2.new(0.275061548, 0, 0.855235875, 0)
+Page1_5.Size = UDim2.new(0, 149, 0, 16)
+Page1_5.ZIndex = 2
+Page1_5.Font = Enum.Font.SourceSans
+Page1_5.Text = "Page 2"
+Page1_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1_5.TextScaled = true
+Page1_5.TextSize = 26.000
+Page1_5.TextWrapped = true
+
+Title_5.Name = "Title"
+Title_5.Parent = Page4
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_5.BorderSizePixel = 2
+Title_5.Position = UDim2.new(0.0425772704, 0, 0.0116381822, 0)
+Title_5.Size = UDim2.new(0, 296, 0, 30)
+Title_5.ZIndex = 2
+Title_5.Font = Enum.Font.SourceSans
+Title_5.Text = "c00lgui V1.1  by PureSigma"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextSize = 26.000
+Title_5.TextWrapped = true
+
+ScrollingFrame.Parent = Page4
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ScrollingFrame.BorderSizePixel = 2
+ScrollingFrame.Position = UDim2.new(0.0169258229, 0, 0.302955657, 0)
+ScrollingFrame.Size = UDim2.new(0, 309, 0, 147)
+
+TextBox.Parent = ScrollingFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0268131979, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 286, 0, 145)
+TextBox.ZIndex = 2
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "print(\"Team c00lkidd join today!\")"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
 
 -- Scripts:
 
-local function FQDV_fake_script() -- Script1.LocalScript 
+local function URFY_fake_script() -- Script1.LocalScript 
 	local script = Instance.new('LocalScript', Script1)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1604,8 +1604,8 @@ local function FQDV_fake_script() -- Script1.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/radiuscool/topkek/refs/heads/main/adsdsaadsdassad", true))()
 	end)
 end
-coroutine.wrap(FQDV_fake_script)()
-local function HKFQ_fake_script() -- Script2.LocalScript 
+coroutine.wrap(URFY_fake_script)()
+local function YTYE_fake_script() -- Script2.LocalScript 
 	local script = Instance.new('LocalScript', Script2)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1621,8 +1621,8 @@ local function HKFQ_fake_script() -- Script2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
 	end)
 end
-coroutine.wrap(HKFQ_fake_script)()
-local function QEHNAP_fake_script() -- Script4.LocalScript 
+coroutine.wrap(YTYE_fake_script)()
+local function LIOFALE_fake_script() -- Script4.LocalScript 
 	local script = Instance.new('LocalScript', Script4)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1638,8 +1638,8 @@ local function QEHNAP_fake_script() -- Script4.LocalScript
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/f018928d2f010789a150b4924e279b16/raw/8de399eb9cbccbde430fcd37270cd4ff171f8b8e/AnimationGUI.txt"))()
 	end)
 end
-coroutine.wrap(QEHNAP_fake_script)()
-local function XKMWQCQ_fake_script() -- Script3.LocalScript 
+coroutine.wrap(LIOFALE_fake_script)()
+local function JQQY_fake_script() -- Script3.LocalScript 
 	local script = Instance.new('LocalScript', Script3)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1655,8 +1655,8 @@ local function XKMWQCQ_fake_script() -- Script3.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(XKMWQCQ_fake_script)()
-local function YKVXF_fake_script() -- Script6.LocalScript 
+coroutine.wrap(JQQY_fake_script)()
+local function JQPKTVM_fake_script() -- Script6.LocalScript 
 	local script = Instance.new('LocalScript', Script6)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1672,8 +1672,8 @@ local function YKVXF_fake_script() -- Script6.LocalScript
 		loadstring(game:GetObjects("https://pastebin.com/raw/u7MAgq6G"))()
 	end)
 end
-coroutine.wrap(YKVXF_fake_script)()
-local function REFLMAG_fake_script() -- Script5.LocalScript 
+coroutine.wrap(JQPKTVM_fake_script)()
+local function SEEMJQ_fake_script() -- Script5.LocalScript 
 	local script = Instance.new('LocalScript', Script5)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1689,8 +1689,8 @@ local function REFLMAG_fake_script() -- Script5.LocalScript
 		loadstring(game:GetObjects("https://pastefy.app/mpngQpOb/raw"))()
 	end)
 end
-coroutine.wrap(REFLMAG_fake_script)()
-local function CNOGK_fake_script() -- Script7.LocalScript 
+coroutine.wrap(SEEMJQ_fake_script)()
+local function EHZFP_fake_script() -- Script7.LocalScript 
 	local script = Instance.new('LocalScript', Script7)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1706,8 +1706,8 @@ local function CNOGK_fake_script() -- Script7.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/c0d3n1/SigmaHub/refs/heads/main/SigmaHub"))()
 	end)
 end
-coroutine.wrap(CNOGK_fake_script)()
-local function ONPQDUB_fake_script() -- Script16.LocalScript 
+coroutine.wrap(EHZFP_fake_script)()
+local function HPOYGW_fake_script() -- Script16.LocalScript 
 	local script = Instance.new('LocalScript', Script16)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1723,8 +1723,8 @@ local function ONPQDUB_fake_script() -- Script16.LocalScript
 		loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
 	end)
 end
-coroutine.wrap(ONPQDUB_fake_script)()
-local function MYOYLV_fake_script() -- Script14.LocalScript 
+coroutine.wrap(HPOYGW_fake_script)()
+local function AGUWT_fake_script() -- Script14.LocalScript 
 	local script = Instance.new('LocalScript', Script14)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1740,8 +1740,8 @@ local function MYOYLV_fake_script() -- Script14.LocalScript
 		loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
 	end)
 end
-coroutine.wrap(MYOYLV_fake_script)()
-local function FIXTHE_fake_script() -- Script15.LocalScript 
+coroutine.wrap(AGUWT_fake_script)()
+local function AICA_fake_script() -- Script15.LocalScript 
 	local script = Instance.new('LocalScript', Script15)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1757,8 +1757,8 @@ local function FIXTHE_fake_script() -- Script15.LocalScript
 		loadstring(game:HttpGet("https://pastefy.app/ZhKVgCK3/raw"))()
 	end)
 end
-coroutine.wrap(FIXTHE_fake_script)()
-local function CDSKTPY_fake_script() -- Script13.LocalScript 
+coroutine.wrap(AICA_fake_script)()
+local function KEIOIW_fake_script() -- Script13.LocalScript 
 	local script = Instance.new('LocalScript', Script13)
 
 	-- Wait for PlayerGui first (avoids replication issues)
@@ -1774,46 +1774,8 @@ local function CDSKTPY_fake_script() -- Script13.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/Chatdraw/refs/heads/main/Chattdraw"))()
 	end)
 end
-coroutine.wrap(CDSKTPY_fake_script)()
-local function IJTIQCJ_fake_script() -- Clear.LocalScript 
-	local script = Instance.new('LocalScript', Clear)
-
-	local button = script.Parent
-	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
-	button.MouseButton1Click:Connect(function()
-		textbox.Text = ""
-	end)
-end
-coroutine.wrap(IJTIQCJ_fake_script)()
-local function FLHZK_fake_script() -- Execute.LocalScript 
-	local script = Instance.new('LocalScript', Execute)
-
-	local button = script.Parent
-	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
-	button.MouseButton1Click:Connect(function()
-		loadstring(textbox.Text)()
-	end)
-end
-coroutine.wrap(FLHZK_fake_script)()
-local function HGYPSXU_fake_script() -- Page4.LocalScript 
-	local script = Instance.new('LocalScript', Page4)
-
-	local scrollingFrame = script.Parent.ScrollingFrame
-	local textBox = scrollingFrame.TextBox
-	
-	-- Basic setup (required for scrolling to work)
-	scrollingFrame.Size = UDim2.new(0, 301, 0, 138)
-	scrollingFrame.ScrollBarThickness = 8
-	scrollingFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
-	textBox.Size = UDim2.new(1, 0, 0, 0)
-	textBox.AutomaticSize = Enum.AutomaticSize.Y
-	textBox.TextWrapped = true
-	
-	-- Add your text (exactly as requested)
-	textBox.Text = "print(team d33rdud3 join today!)"
-end
-coroutine.wrap(HGYPSXU_fake_script)()
-local function EHQHZMC_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(KEIOIW_fake_script)()
+local function RAHX_fake_script() -- c00lgui.LocalScript 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local gui = script.Parent
@@ -1859,8 +1821,8 @@ local function EHQHZMC_fake_script() -- c00lgui.LocalScript
 	-- Initialize (show first page)
 	updatePages()
 end
-coroutine.wrap(EHQHZMC_fake_script)()
-local function EQEAJZ_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(RAHX_fake_script)()
+local function ZKWXTHG_fake_script() -- c00lgui.LocalScript 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1970,8 +1932,8 @@ local function EQEAJZ_fake_script() -- c00lgui.LocalScript
 	showPage(1)
 	setElementsVisible(true)
 end
-coroutine.wrap(EQEAJZ_fake_script)()
-local function MRRLFVX_fake_script() -- Script1_2.LocalScript 
+coroutine.wrap(ZKWXTHG_fake_script)()
+local function HAMRH_fake_script() -- Script1_2.LocalScript 
 	local script = Instance.new('LocalScript', Script1_2)
 
 	local debounce = false
@@ -2003,8 +1965,8 @@ local function MRRLFVX_fake_script() -- Script1_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MRRLFVX_fake_script)()
-local function IBTX_fake_script() -- Script2_2.LocalScript 
+coroutine.wrap(HAMRH_fake_script)()
+local function ORDH_fake_script() -- Script2_2.LocalScript 
 	local script = Instance.new('LocalScript', Script2_2)
 
 	local button = script.Parent
@@ -2039,8 +2001,8 @@ local function IBTX_fake_script() -- Script2_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IBTX_fake_script)()
-local function STODBD_fake_script() -- Script4_2.LocalScript 
+coroutine.wrap(ORDH_fake_script)()
+local function EKGTQGZ_fake_script() -- Script4_2.LocalScript 
 	local script = Instance.new('LocalScript', Script4_2)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -2174,8 +2136,8 @@ local function STODBD_fake_script() -- Script4_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(STODBD_fake_script)()
-local function DJIA_fake_script() -- Script3_2.LocalScript 
+coroutine.wrap(EKGTQGZ_fake_script)()
+local function FXVV_fake_script() -- Script3_2.LocalScript 
 	local script = Instance.new('LocalScript', Script3_2)
 
 	local button = script.Parent
@@ -2230,8 +2192,8 @@ local function DJIA_fake_script() -- Script3_2.LocalScript
 	-- Initialize
 	button.Text = "Auto Generator Off"
 end
-coroutine.wrap(DJIA_fake_script)()
-local function XAME_fake_script() -- Script16_2.LocalScript 
+coroutine.wrap(FXVV_fake_script)()
+local function TVMVYWX_fake_script() -- Script16_2.LocalScript 
 	local script = Instance.new('LocalScript', Script16_2)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -2294,8 +2256,8 @@ local function XAME_fake_script() -- Script16_2.LocalScript
 	-- Initialize button
 	button.Text = "Infinite Stamina : Off"
 end
-coroutine.wrap(XAME_fake_script)()
-local function HTOR_fake_script() -- Script14_2.LocalScript 
+coroutine.wrap(TVMVYWX_fake_script)()
+local function EYQEPI_fake_script() -- Script14_2.LocalScript 
 	local script = Instance.new('LocalScript', Script14_2)
 
 	local button = script.Parent
@@ -2376,8 +2338,8 @@ local function HTOR_fake_script() -- Script14_2.LocalScript
 	button.Text = "Walkspeed Hax Off"
 	
 end
-coroutine.wrap(HTOR_fake_script)()
-local function SBPMYYV_fake_script() -- Script13_2.LocalScript 
+coroutine.wrap(EYQEPI_fake_script)()
+local function JYLFI_fake_script() -- Script13_2.LocalScript 
 	local script = Instance.new('LocalScript', Script13_2)
 
 	local Players = game:GetService("Players")
@@ -2452,8 +2414,8 @@ local function SBPMYYV_fake_script() -- Script13_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SBPMYYV_fake_script)()
-local function PDAK_fake_script() -- Page2.LocalScript 
+coroutine.wrap(JYLFI_fake_script)()
+local function DABEEQG_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local gui = script.Parent
@@ -2461,8 +2423,8 @@ local function PDAK_fake_script() -- Page2.LocalScript
 	gui.ResetOnSpawn = false
 	
 end
-coroutine.wrap(PDAK_fake_script)()
-local function LMKPS_fake_script() -- nil.gui2lua #6 
+coroutine.wrap(DABEEQG_fake_script)()
+local function NBEWR_fake_script() -- nil.gui2lua #6 
 	local script = Instance.new('LocalScript', nil)
 
 	-- Gui to Lua
@@ -5119,8 +5081,8 @@ local function LMKPS_fake_script() -- nil.gui2lua #6
 	coroutine.wrap(JVWRGQ_fake_script)()
 	
 end
-coroutine.wrap(LMKPS_fake_script)()
-local function DKYWEOO_fake_script() -- _4.LocalScript 
+coroutine.wrap(NBEWR_fake_script)()
+local function FSSG_fake_script() -- _4.LocalScript 
 	local script = Instance.new('LocalScript', _4)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -5222,8 +5184,8 @@ local function DKYWEOO_fake_script() -- _4.LocalScript
 	end)
 	
 end
-coroutine.wrap(DKYWEOO_fake_script)()
-local function EOQF_fake_script() -- _3.LocalScript 
+coroutine.wrap(FSSG_fake_script)()
+local function GTBEOWA_fake_script() -- _3.LocalScript 
 	local script = Instance.new('LocalScript', _3)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -5386,8 +5348,8 @@ local function EOQF_fake_script() -- _3.LocalScript
 	button.Text = "Killer Highlighter Off"
 	killerHighlighter(false)
 end
-coroutine.wrap(EOQF_fake_script)()
-local function QOKR_fake_script() -- _2.LocalScript 
+coroutine.wrap(GTBEOWA_fake_script)()
+local function ITPKO_fake_script() -- _2.LocalScript 
 	local script = Instance.new('LocalScript', _2)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -5458,8 +5420,8 @@ local function QOKR_fake_script() -- _2.LocalScript
 	button.Text = "Tool Highlighter Off"
 	highlighttools(false)
 end
-coroutine.wrap(QOKR_fake_script)()
-local function ELPEG_fake_script() -- _1.LocalScript 
+coroutine.wrap(ITPKO_fake_script)()
+local function SWHDMJF_fake_script() -- _1.LocalScript 
 	local script = Instance.new('LocalScript', _1)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -5610,8 +5572,8 @@ local function ELPEG_fake_script() -- _1.LocalScript
 	button.Text = "Survivor Highlighter Off"
 	survivorHighlighter(false)
 end
-coroutine.wrap(ELPEG_fake_script)()
-local function APVD_fake_script() -- _3_2.LocalScript 
+coroutine.wrap(SWHDMJF_fake_script)()
+local function ZOAAGTX_fake_script() -- _3_2.LocalScript 
 	local script = Instance.new('LocalScript', _3_2)
 
 	local player = game:GetService("Players").LocalPlayer
@@ -5660,8 +5622,8 @@ local function APVD_fake_script() -- _3_2.LocalScript
 	button.Text = "Hide Player Bar Off"
 	togglehidebar(false)
 end
-coroutine.wrap(APVD_fake_script)()
-local function TXSTIOB_fake_script() -- c00lgui.LocalScript 
+coroutine.wrap(ZOAAGTX_fake_script)()
+local function HANRZDF_fake_script() -- c00lgui.LocalScript 
 	local script = Instance.new('LocalScript', c00lgui)
 
 	local screenGui = script.Parent
@@ -5669,4 +5631,42 @@ local function TXSTIOB_fake_script() -- c00lgui.LocalScript
 	print("DisplayOrder set to", screenGui.DisplayOrder)
 	
 end
-coroutine.wrap(TXSTIOB_fake_script)()
+coroutine.wrap(HANRZDF_fake_script)()
+local function CDWQTQ_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(CDWQTQ_fake_script)()
+local function HWRSLEF_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(HWRSLEF_fake_script)()
+local function TCVRXDZ_fake_script() -- Page4.LocalScript 
+	local script = Instance.new('LocalScript', Page4)
+
+	local scrollingFrame = script.Parent.ScrollingFrame
+	local textBox = scrollingFrame.TextBox
+	
+	-- Basic setup (required for scrolling to work)
+	scrollingFrame.Size = UDim2.new(0, 301, 0, 138)
+	scrollingFrame.ScrollBarThickness = 8
+	scrollingFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
+	textBox.Size = UDim2.new(1, 0, 0, 0)
+	textBox.AutomaticSize = Enum.AutomaticSize.Y
+	textBox.TextWrapped = true
+	
+	-- Add your text (exactly as requested)
+	textBox.Text = "print(team d33rdud3 join today!)"
+end
+coroutine.wrap(TCVRXDZ_fake_script)()
